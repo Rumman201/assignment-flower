@@ -168,29 +168,81 @@ body {
     gap: 10px;
     border: 0;
 }
-.section-instagram{
+
+.section-instagram {
     padding: 0px 100px 0px 100px;
 }
 
 .instagram {
     margin-top: 300px;
 }
-.instagram-title{
+
+.instagram-title {
     max-width: 700px;
     margin: auto;
     text-align: center;
 }
-.instagram-description{
+
+.instagram-description {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
-.instagram-image{
+
+.instagram-image {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.latest-deal {
+    background-image: url("/Flower\ Asset/#E55473");
+    background-repeat: no-repeat;
+    height: 350px;
+    margin: 200px 200px;
+
+}
+
+.deal-item {
+    position: relative;
+    top: 40%;
+    text-align: center;
+}
+
+.deal-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+
+    font-weight: 800;
+
+}
+
+.deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.mail {
+    width: 200px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding: 20px;
+}
+.subscribe{
+    width: 150px;
+height: 64px;
+border-radius: 8px;
+background: #E55473;
 }
