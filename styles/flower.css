@@ -52,12 +52,14 @@ body {
     max-width: 634px;
     max-height: 90px;
 }
-.padding{
+
+.padding {
     padding: 150px 240px 0px 240px;
 }
-.section-description{
+
+.section-description {
     margin-bottom: 60px;
-    
+
 }
 
 .main {
@@ -87,7 +89,7 @@ body {
 .first-image img {
     margin: 110px 78px 0px 76px;
     margin-bottom: 0px;
-    
+
 }
 
 .second-image {
@@ -116,7 +118,7 @@ body {
 }
 
 .link {
-    
+
     color: #272727;
     text-align: center;
     font-family: Lato;
@@ -124,4 +126,71 @@ body {
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
+}
+
+.deal {
+    display: flex;
+    align-items: center;
+    margin: 200px 0px;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.description {
+    text-align: center;
+    max-width: 500px;
+}
+
+.section3-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+
+    font-weight: 800;
+
+}
+
+.side {
+    /* margin: 100px 450px 100px 1200px; */
+}
+
+.span-color {
+    color: #e82e56;
+}
+
+.sign {
+    border-radius: 8px;
+    background: #E55473;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 0;
+}
+.section-instagram{
+    padding: 0px 100px 0px 100px;
+}
+
+.instagram {
+    margin-top: 300px;
+}
+.instagram-title{
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+.instagram-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.instagram-image{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
